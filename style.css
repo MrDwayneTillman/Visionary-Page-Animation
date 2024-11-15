@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    background: #111; /* Dark background to make the animation stand out */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+#cradle-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #000; /* Set a background color to easily see the balls */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
