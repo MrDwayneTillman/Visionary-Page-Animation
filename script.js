@@ -36,7 +36,7 @@ groundBody.quaternion.setFromEuler(-Math.PI / 2, 0, 0);
 world.addBody(groundBody);
 
 // Creating geometry for the balls (representing skills)
-let ballGeometry = new THREE.SphereGeometry(0.5, 82, 82);
+let ballGeometry = new THREE.SphereGeometry(0.5, 182, 182);
 let colors = [0xff0000, 0x00ff00, 0x0000ff, 0xffff00, 0xff00ff, 0x00ffff, 0xffa500]; // Seven different colors
 let balls = [];
 let ballBodies = [];
